@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Instalation
+1. Install ruby using your prefered method: https://www.ruby-lang.org/pt/documentation/installation/
+2. Clone the repository
+3. Install rails, runnig `gem install rails`
+   Now you should be good to go!
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Running the project
+1. inside the `word_counter` project folder, run the command `rails server`
