@@ -29,10 +29,6 @@ textarea {
 textarea.noResize{
   resize:none;  
 }
-textarea.heightControl{
-  height:100px;
-  width:500px;
-}
 
 h1 {
   text-align: center;
@@ -57,8 +53,5 @@ p {
 
 .child {
   text-align: center;
-
-  /* background-color: red; */
-  /* Center horizontally*/
   margin: 0 auto;
 }

@@ -34291,3 +34291,22 @@ Processing by CounterController#result as TURBO_STREAM
 Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 1714)
 
 
+Started GET "/" for 127.0.0.1 at 2024-05-03 17:59:14 -0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by CounterController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering counter/index.html.erb within layouts/application
+  Rendered counter/index.html.erb within layouts/application (Duration: 7.6ms | Allocations: 3412)
+  Rendered layout layouts/application.html.erb (Duration: 57.8ms | Allocations: 44337)
+Completed 200 OK in 63ms (Views: 60.7ms | ActiveRecord: 0.0ms | Allocations: 48923)
+
+
+Started GET "/" for 127.0.0.1 at 2024-05-03 17:59:14 -0300
+Processing by CounterController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering counter/index.html.erb within layouts/application
+  Rendered counter/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 461)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1727)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 2084)
+
+
