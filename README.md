@@ -1,4 +1,5 @@
 # README
+Recommended OS: Linux (still works on others, with a few caveats for windows described below (Mac has not been tested))
 
 ## Instalation
 1. Install ruby 3.0.2 using your prefered method: https://www.ruby-lang.org/pt/documentation/installation/
@@ -20,4 +21,5 @@ You should:
 4. Run bundle install
 
 After reinstalling back tzinfo-data, the rails server is able to start up.
+Also, make sure the project file has the proper permissions
  
