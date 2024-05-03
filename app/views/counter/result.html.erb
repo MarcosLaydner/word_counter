@@ -1,0 +1,33 @@
+  
+  <!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Counter</title>
+    
+  </head>
+
+  <body>
+    <div class="container" style='width:100%;'>
+      <div>
+        <br>
+        <h1>Word Counter</h1>
+        <br>
+        <% if params[:count].to_i > 0 %>
+            <div class="alert alert-primary">
+              <%= "You typed #{params[:count]} word(s)!" %>
+            </div>
+          <% end %>
+
+          <% unless params[:error].blank? %>
+            <div class="alert alert-danger">
+              <%= "Error:  #{params[:error]}" %>
+            </div>
+          <% end %>
+
+        <%= button_to "Return", root_path, method: :get, :class => "btn btn-primary"%>
+      </div>
+    </div>
+  </body>
+  
+  
+  

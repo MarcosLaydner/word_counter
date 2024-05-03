@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Word Counter</title>
+    
+  </head>
+
+  <body>
+    <div class="container" style='width:100%;'>
+      <div>
+        <br>
+        <h1>Word Counter</h1>
+        <br>
+          <%= form_tag('count_words') do %>
+            <%= text_area(:content, size: "30x10", style: 'width:100%;')%>
+
+            <br>
+            <br>
+            <p><%= submit_tag('Submit', :class => "btn btn-primary")%>
+          <% end %>
+      </div>
+    </div>
+
+  </body>
+</html>
