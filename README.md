@@ -8,4 +8,5 @@
 Now you should be good to go!
 
 ## Running the project
-1. inside the `word_counter` project folder, run the command `rails server`
+1. run `bundle install` to make sure all dependencies are installed
+2. inside the `word_counter` project folder, run the command `rails server`
