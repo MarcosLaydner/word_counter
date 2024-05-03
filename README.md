@@ -1,7 +1,7 @@
 # README
 
 ## Instalation
-1. Install ruby using your prefered method: https://www.ruby-lang.org/pt/documentation/installation/
+1. Install ruby 3.0.2 using your prefered method: https://www.ruby-lang.org/pt/documentation/installation/
 2. Clone the repository
 3. Install rails, runnig `gem install rails`
 
